@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	MLDBM
-%define		pnam	MLDBM-Sync
+%define		pnam	Sync
 Summary:	MLDBM::Sync - safe concurrent access to MLDBM databases
 Summary(pl):	MLDBM::Sync - bezpieczny równoczesny dostêp do baz danych MLDBM
 Name:		perl-MLDBM-Sync
@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bb4e8d4bd6a30eee3f1126956409321
 URL:		http://search.cpan.org/dist/MLDBM-Sync/
 BuildRequires:	perl-MLDBM
@@ -36,7 +36,7 @@ u¿ywane do logicznej serializacji ¿±dañ i zwiêkszenia wydajno¶ci dla
 szeregu operacji odczytu i zapisu.
 
 %prep
-%setup -q -n %{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
