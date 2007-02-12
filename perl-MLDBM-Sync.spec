@@ -6,7 +6,7 @@
 %define		pdir	MLDBM
 %define		pnam	Sync
 Summary:	MLDBM::Sync - safe concurrent access to MLDBM databases
-Summary(pl):	MLDBM::Sync - bezpieczny równoczesny dostêp do baz danych MLDBM
+Summary(pl.UTF-8):   MLDBM::Sync - bezpieczny rÃ³wnoczesny dostÄ™p do baz danych MLDBM
 Name:		perl-MLDBM-Sync
 Version:	0.30
 Release:	2
@@ -28,11 +28,11 @@ access to MLDBM databases with file locking, and flushes I/O explicity
 per lock/unlock. The new Lock()/UnLock() API can be used to serialize
 requests logically and improve performance for bundled reads & writes.
 
-%description -l pl
-Ten modu³ opakowuje interfejs MLDBM dodaj±c obs³ugê jednoczesnego
-dostêpu do baz danych MLDBM z blokowaniem plików i zrzuca operacje
-wej¶cia/wyj¶cia dla danej blokady. Nowe API Lock()/Unlock() mo¿e byæ
-u¿ywane do logicznej serializacji ¿±dañ i zwiêkszenia wydajno¶ci dla
+%description -l pl.UTF-8
+Ten moduÅ‚ opakowuje interfejs MLDBM dodajÄ…c obsÅ‚ugÄ™ jednoczesnego
+dostÄ™pu do baz danych MLDBM z blokowaniem plikÃ³w i zrzuca operacje
+wejÅ›cia/wyjÅ›cia dla danej blokady. Nowe API Lock()/Unlock() moÅ¼e byÄ‡
+uÅ¼ywane do logicznej serializacji Å¼Ä…daÅ„ i zwiÄ™kszenia wydajnoÅ›ci dla
 szeregu operacji odczytu i zapisu.
 
 %prep
