@@ -6,7 +6,7 @@
 %define		pdir	MLDBM
 %define		pnam	Sync
 Summary:	MLDBM::Sync - safe concurrent access to MLDBM databases
-Summary(pl.UTF-8):   MLDBM::Sync - bezpieczny równoczesny dostęp do baz danych MLDBM
+Summary(pl.UTF-8):	MLDBM::Sync - bezpieczny równoczesny dostęp do baz danych MLDBM
 Name:		perl-MLDBM-Sync
 Version:	0.30
 Release:	2
