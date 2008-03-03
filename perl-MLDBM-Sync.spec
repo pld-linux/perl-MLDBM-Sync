@@ -9,7 +9,7 @@ Summary:	MLDBM::Sync - safe concurrent access to MLDBM databases
 Summary(pl.UTF-8):	MLDBM::Sync - bezpieczny równoczesny dostęp do baz danych MLDBM
 Name:		perl-MLDBM-Sync
 Version:	0.30
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
