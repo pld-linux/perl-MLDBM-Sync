@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	MLDBM
 %define		pnam	Sync
 Summary:	MLDBM::Sync - safe concurrent access to MLDBM databases
